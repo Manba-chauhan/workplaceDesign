@@ -23,7 +23,7 @@ const Section4 = () => {
             receptionist and custodial services, and in some cases refreshments
             and parcel acceptance services.
           </p>
-          <button className="bg-orange-500 text-white px-8 py-2 rounded-xl text-md  mt-20 ">
+          <button className="bg-orange-500 text-white px-8 py-2 rounded-xl text-md  mt-20 max-md:mt-5">
             View Availability
           </button>
         </div>

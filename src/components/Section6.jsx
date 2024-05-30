@@ -12,7 +12,7 @@ const Section6 = () => {
         <div className="flex-1">
           <div className="">
             <p className="text-orange-500 text-sm tracking-widest">Gallery</p>
-            <h1 className="text-black tracking-widest text-4xl font-bold  max-md:w-full">
+            <h1 className="text-black tracking-widest text-4xl font-bold  max-md:w-full max-md:text-2xl">
               Immersive beautiful co-working space gallery
             </h1>
           </div>

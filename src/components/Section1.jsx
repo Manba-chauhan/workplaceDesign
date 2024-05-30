@@ -23,18 +23,19 @@ const Section1 = () => {
           <img
             src={circle1}
             alt="inmg"
-            className="relative  -left-12  -top-10 max-md:-left-14 "
+            className="relative  -left-12  -top-10 max-md:-left-12 "
           />
           <img
             src={circle2}
             alt="inmg"
-            className="relative  left-32 -top-60  -right-20 max-md:left-60 max-md:-top-80  "
+            className="relative  left-32 -top-60  -right-20 max-md:left-52 max-md:-top-80 
+            "
           />
 
           <img
             src={circle3}
             alt="inmg"
-            className="relative -top-96 left-16  max-md:left-40 max-md:-top-[400px]"
+            className="relative -top-96 left-16  max-md:left-32 max-md:-top-[400px]"
           />
           <h1
             className="text-gray-500 opacity-30 text-4xl tracking-wide 
@@ -45,9 +46,10 @@ const Section1 = () => {
           </h1>
         </div>
         <div className="relative top-20  max-md:-top-60 ">
-          <div className="ml-40 pt-20  max-md:pl-10 max-md:pt-10 max-md:ml-5 max-sm:ml-4">
+          <div className="ml-40 pt-20  max-md:pl-10 max-md:pt-10 max-md:ml-5 max-sm:ml-0">
             <span className="text-orange-500 text-3xl font-bold">^^^^^</span>
-            <h1 className="text-black text-5xl font-bold w-4/12 max-md:text-4xl tracking-wider max-md:w-full">
+            <h1 className="text-black text-5xl font-bold w-4/12 max-md:text-3xl max-sm:text-lg 
+            tracking-wider max-md:w-full">
               A new way to revolutionise your workspace to yourself
             </h1>
           </div>
@@ -57,12 +59,12 @@ const Section1 = () => {
         max-md:flex-col max-md:px-2 max-md:ml-5 max-md:space-y-6  "
           >
             <div className="">
-              <span className="text-2xl text-gray-500">
+              <span className="text-2xl text-gray-500 max-sm:text-xl">
                 <i class="fa-solid fa-location-dot"></i> &nbsp;City
               </span>
             </div>
             <div className="">
-              <span className="text-2xl text-gray-500">location</span>
+              <span className="text-2xl text-gray-500 max-md:text-xl">location</span>
             </div>
             <div className="">
               <Button text="Schedule Visit" />

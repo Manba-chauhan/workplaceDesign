@@ -13,7 +13,7 @@ const Section5 = () => {
         <h2 className="text-orange-500 font-medium text-md">Why Choose Us?</h2>
         <p
           className="text-black  my-4 font-meduim text-4xl w-4/12 
-        mx-auto tracking-wider  leading-10 max-md:w-full  max-sm:text-4xl"
+        mx-auto tracking-wider  leading-10 max-md:w-full  max-sm:text-2xl"
         >
           The benefits that will make you comfort
         </p>

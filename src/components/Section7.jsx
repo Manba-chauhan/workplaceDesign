@@ -9,7 +9,7 @@ const Section7 = () => {
           <h2 className="text-orange-500 font-medium text-md mb-4 ">
             Become A Member
           </h2>
-          <h2 className="text-4xl font-meduim  text-black tracking-widest leading-8 mb-4">
+          <h2 className="text-4xl font-meduim  text-black tracking-widest leading-8 mb-4 max-md:text-xl">
             Ready to try different work environment now?
           </h2>
           <p className="text-black tracking-wider  leading-6 text-sm">
@@ -20,12 +20,13 @@ const Section7 = () => {
             and parcel acceptance services.
           </p>
           <div className="flex space-x-10 max-sm:flex-col max-sm:space-x-0">
-            <button className="bg-orange-500 text-white px-8 py-2 text-nowrap rounded-xl text-md  mt-20 ">
+            <button className="bg-orange-500 text-white px-8 py-2 text-nowrap rounded-xl text-md  
+            mt-20 max-md:mt-10 ">
               Sign Up Now
             </button>
             <button
               className="border-orange-500 border-dotted border-2
-               text-orange-500 px-8 py-2 rounded-xl text-md  mt-20 text-nowrap
+               text-orange-500 px-8 py-2 rounded-xl text-md  mt-20 text-nowrap max-md:mt-5
             "
             >
               Schedule Visit

@@ -15,16 +15,17 @@ const Section3 = () => {
       <div className=" flex-1">
         <div className="">
           <p className="text-orange-500 font-bold">Visions</p>
-          <h2 className="text-black font-medium text-4xl w-10/12 tracking-widest max-md:w-full">
+          <h2 className="text-black font-medium text-4xl w-10/12 tracking-widest
+           max-md:w-full max-md:text-2xl">
             Our vision in 1-space to make something
           </h2>
-          <p className=" my-6 text-md tracking-wider line-clamp-6 leading-8 max-md:w-full">
+          <p className=" my-6 text-md tracking-wider line-clamp-6 leading-8 max-md:w-full max-md:text-sm">
             Coworking is an arrangement in which workers of different companies
             share an office space, allowing cost savings and convenience through
             the use of common infrastructures services.
           </p>
         </div>
-        <div className="grid grid-cols-2  gap-10">
+        <div className="grid grid-cols-2  gap-10 max-md:grid-cols-1 max-md:mt-10">
           <div className="">
             <div className="flex">
               <span className="w-4 h-4 rounded-full bg-yellow-400"></span>
@@ -34,7 +35,7 @@ const Section3 = () => {
               </h2>
             </div>
             <div className="px-6">
-              <p className="text-sm max-md:w-full">
+              <p className="text-sm max-md:w-full ml-4">
                 Coworking is an arrangement in which workers of different
                 companies.
               </p>
@@ -48,8 +49,8 @@ const Section3 = () => {
                 High quality co-living spaces
               </h2>
             </div>
-            <div className="px-4">
-              <p className="text-sm ">
+            <div className="px-6">
+              <p className="text-sm  ml-4">
                 Coworking is an arrangement in which workers of different
                 companies.
               </p>
@@ -63,8 +64,8 @@ const Section3 = () => {
                 High quality co-living spaces
               </h2>
             </div>
-            <div className="px-4">
-              <p className=" text-sm max-md:w-full">
+            <div className="px-6">
+              <p className=" text-sm max-md:w-full ml-4">
                 Coworking is an arrangement in which workers of different
                 companies.
               </p>
