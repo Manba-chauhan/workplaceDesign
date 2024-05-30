@@ -16,18 +16,18 @@ const Section6 = () => {
               Immersive beautiful co-working space gallery
             </h1>
           </div>
-          <div className=" mt-10  grid  grid-cols-2">
+          <div className=" mt-10  grid  grid-cols-2 px-2">
             <div className="">
               <img src={g4} alt="" />
             </div>
             <div className="">
-              <img src={g2} alt="" className="pb-20" />
+              <img src={g5} alt="" className="" />
             </div>
             <div className="">
               <img src={g3} alt="" />
             </div>
             <div className="">
-              <img src={g5} alt="" />
+              <img src={g2} alt="" />
             </div>
           </div>
         </div>
