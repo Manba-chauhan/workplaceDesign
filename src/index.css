@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .main {
+        @apply bg-white max-w-[2400px] max-h-full mx-auto overflow-hidden; 
+    }
+
+    .menu-list {
+        @apply bg-white flex space-x-20 max-md:hidden;
+    }
+
+    .list {
+        @apply text-black font-medium;
+    }
+}
+
+
+@layer base {}
